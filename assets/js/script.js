@@ -189,8 +189,6 @@ window.addEventListener('scroll', changeLinkState);
 //    }
 //});
 
-
-
 // WORK MODALS
 // open modal
 function openModal(id) {

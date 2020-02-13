@@ -322,24 +322,32 @@ nav .navlinks a:hover{
     background-color:#EF7215;
 }
 .navlinks .navlink:nth-child(1).active ~ .active-slider{
-    top: 0px;
-    left: 10px;
-    width: 88px;
+    top: -1px;
+    left: 5px;
+    right: 426.75px;
+    bottom: 10px;
+    width: 95px;
 }
 .navlinks .navlink:nth-child(2).active ~ .active-slider{
-    top: 0px;
-    left: 121px;
-    width: 102.5px;
+    top: -1px;
+    left: 118.531px;
+    right: 301.219px;
+    bottom: 10px;
+    width: 107px;
 }
 .navlinks .navlink:nth-child(3).active ~ .active-slider{
-    top: 0px;
-    left: 248.078px;
-    width: 91.672px;
+    top: -1px;
+    left: 243.656px;
+    right: 186.094px;
+    bottom: 10px;
+    width: 97px;
 }
 .navlinks .navlink:nth-child(4).active ~ .active-slider{
-    top: 0px;
-    left: 362.75px;
-    width: 132.0781px;
+    top: -1px;
+    left: 359.391px;
+    right: 30.3594px;
+    bottom: 10px;
+    width: 137px;
 }
 /*.active{
     background-color:#EF7215;
