@@ -302,6 +302,7 @@ nav .navlinks{
     padding: 12px 15px 0px 0px;
     margin-left:18px;
     overflow: hidden;
+    position:relative;
 }
 nav .navlinks a{
     color:white;
@@ -310,12 +311,40 @@ nav .navlinks a{
     text-decoration: none;
 }
 nav .navlinks a:hover{
-    color:#EF7215;
+    /*color:#EF7215;*/
 }
-.active{
+/* Active slider */
+.active-slider{
+    height:101%;
+    position:absolute;
+    transition:all 500ms !important;
+    z-index:-1;
+    background-color:#EF7215;
+}
+.navlinks .navlink:nth-child(1).active ~ .active-slider{
+    top: 0px;
+    left: 10px;
+    width: 88px;
+}
+.navlinks .navlink:nth-child(2).active ~ .active-slider{
+    top: 0px;
+    left: 121px;
+    width: 102.5px;
+}
+.navlinks .navlink:nth-child(3).active ~ .active-slider{
+    top: 0px;
+    left: 248.078px;
+    width: 91.672px;
+}
+.navlinks .navlink:nth-child(4).active ~ .active-slider{
+    top: 0px;
+    left: 362.75px;
+    width: 132.0781px;
+}
+/*.active{
     background-color:#EF7215;
     color:white !important;
-}
+}*/
 
 /* Sections */
 .next-section{

@@ -40,6 +40,7 @@
                         <a href="#about" class="navlink">About</a>
                         <a href="#work" class="navlink">Work</a>
                         <a href="#contactMe" class="navlink">Contact</a>
+                        <div class="active-slider"></div>
                     </div>
 
                     <!-- small screen -->

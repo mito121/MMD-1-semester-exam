@@ -3,10 +3,10 @@
 //    window.scrollTo(0,0);
 //}
 
-window.onscroll = function () {
-    var scrollPosY = window.pageYOffset | document.body.scrollTop;
-    document.getElementById("scrollValue").innerHTML = scrollPosY;
-}
+//window.onscroll = function () {
+//    var scrollPosY = window.pageYOffset | document.body.scrollTop;
+//    document.getElementById("scrollValue").innerHTML = scrollPosY;
+//}
 
 var $section = $("section");
 var $currentSection = 0;
@@ -111,12 +111,6 @@ $section.waypoint(function (direction) {
 
 }, {offset: "40%"});
 
-// Show scroll value
-window.addEventListener('scroll', function () {
-    var scrollPosY = window.pageYOffset | document.body.scrollTop;
-//    document.getElementById("scrollValue").innerHTML = scrollPosY;
-});
-
 
 // Resize navigation split div on scroll
 window.addEventListener('load', function () {
@@ -174,6 +168,26 @@ function changeLinkState() {
 }
 changeLinkState();
 window.addEventListener('scroll', changeLinkState);
+
+//Move navigation active-slider
+//$('.navlink').click(function () {
+//    if (!$(this).hasClass('active')) {
+//
+//        $('.navlink').removeClass('active');
+//        $(this).addClass('active');
+//        var width = $(this).width() + 22;
+//        offsetTop = $(this).offset().top - $('.navlinks').offset().top;
+//        offsetLeft = $(this).offset().left - $('.navlinks').offset().left;
+//
+//        $('.active-slider').animate({
+//            top: offsetTop,
+//            left: offsetLeft,
+//            right: $('.navlinks').width() - $(this).width() - offsetLeft,
+//            bottom: $('.navlinks').height() - $(this).height() - offsetTop,
+//            width: width + 2
+//        }, 50, 'linear');
+//    }
+//});
 
 
 
